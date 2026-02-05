@@ -12,7 +12,10 @@ header {
   padding: 20px;
   text-align: center;
 }
-
+.container{
+  max-width: 900px;
+  margin: auto;
+}
 section {
   background-color: white;
   margin: 20px;
@@ -43,7 +46,7 @@ button {
   border: none;
 }
 
-button.hover {
+button:hover {
   background-color: ivory;
 }
 
